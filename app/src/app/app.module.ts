@@ -13,6 +13,8 @@ import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 
 import {MaterialModule} from '../material-module';
 
+import { CommonModule } from '@angular/common';
+import { Bootstrap4FrameworkModule } from 'angular6-json-schema-form';
 @NgModule({
   declarations: [
     AppComponent
@@ -25,6 +27,8 @@ import {MaterialModule} from '../material-module';
     MaterialModule,
     BrowserAnimationsModule,
     FormsModule, ReactiveFormsModule,
+    CommonModule,Bootstrap4FrameworkModule,
+
   ],
   providers: [],
   bootstrap: [AppComponent]
